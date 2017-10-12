@@ -8,6 +8,8 @@ was done using timers as I wished to learn more about them before moving to the 
 UP mode, and a divider of 8, the interrupt was set up in a way to set the frequency at 12.5Hz. This way the LEDs would be toggled
 on and off at a rate of 1/12.5 seconds.
 
+##Usage
+* Once the code is loaded onto the proccessor, the user need not do anything else as the LEDs will blink on their own.
 ## Devices
 * MSP430G2553
 * MSP430F5529

@@ -7,6 +7,9 @@
 however since timers were still unknown at the time of writing, the actual implementation consisted of using methods to delay the
 processor from progressing through the code, either by clogging it up with empty for loops, or the delay cycles command.
 
+## Usage
+* Once loaded onto the processor the LED will blink on its own with no need for user input.
+
 ## Devices
 * MSP430G2553
 * MSP430FR2311
