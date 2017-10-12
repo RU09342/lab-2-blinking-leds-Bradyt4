@@ -1,21 +1,21 @@
-# Button Blink
-Now that you have looked at blinking the LED from some built in delay, but what if we wanted to control the state of the LED by a button? You may think "Why would I need a Microcontroller to perform the job of a switch?". And that is where you come in. The bare minimum for this part of the lab is to essentially replicate a switch with your development board.
-
-# YOU NEED TO CREATE THE FOLLOWING FOLDERS
-* MSP430G2553
-* MSP430F5529
-* MSP430FR2311
-* MSP430FR5994
-* MSP430FR6989
-
-## README
-Remember to replace this README with your README once you are ready to submit. I would recommend either making a copy of this file or taking a screen shot. There might be a copy of all of these README's in a folder on the top level depending on the exercise.
-
-## Extra Work
-What can we do to make this a little bit more worthy of needing a microcontroller.
-
-### Button Based Speed Control
-Much like the UART controlled speed, what if you could cycle between speeds based on a button press? The speed could progress through a cycle of "Off-Slow-Medium-Fast" looping back when you hit the end.
-
-### Color Change
-What if upon a button press, the LED which was blinking changed. Some of the development boards contain two LEDs, so you could swap between a Red and a Green LED.
+# Simple Blink
+###Tyler Brady
+##Background
+The purpose of this lab was to create code capable of making a LED on the board to blink. This could be done in a variety of ways, 
+however since timers were still unknown at the time of writing, the actual implementation consisted of using methods to delay the
+processor from progressing through the code, either by clogging it up with empty for loops, or the delay cycles command.
+##Devices
+*MSP430G2553
+*MSP430FR2311
+*MSP430FR5994
+*MSP430FR6989
+*MSP430F5529
+##Differences
+The main differences in board's code was either in implementation, using either a for/while loop to delay the processor, 
+or simply just using the delay cycles function built into the processor. While a smaller difference between boards was the pins used
+as some boards used different pins to control the built in LEDs.
+##Extra work
+The extra work performed in this lab can be found under the MSP430F5529. The work done was to create code where when the button
+connected to Pin 1.1 was pressed, the speed at which the LED would blink would get faster until resetting back to base. This was done
+using an interrupt to check when the button was pressed and a variable which would count states, moving between them as on the interrupts
+trigger.
