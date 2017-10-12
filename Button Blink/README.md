@@ -3,7 +3,7 @@
 ## Tyler Brady
 
 ## Background
-*The purpose of this lab was to create code capable of making a LED on the board to blink. This could be done in a variety of ways, 
+* The purpose of this lab was to create code capable of making a LED on the board to blink. This could be done in a variety of ways, 
 however since timers were still unknown at the time of writing, the actual implementation consisted of using methods to delay the
 processor from progressing through the code, either by clogging it up with empty for loops, or the delay cycles command.
 
