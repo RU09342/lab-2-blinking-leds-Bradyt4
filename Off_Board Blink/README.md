@@ -15,5 +15,5 @@ a ground, and the ability to write to the processor without putting it onto the 
 * In this project the board was also tied to Test and Reset located on the board so that the code could be written onto the device
 without placing the chip back into the board.
 
-* ![Example Gif]https://github.com/RU09342/lab-2-blinking-leds-Bradyt4/blob/master/Off_Board%20Blink/Working.gif
+* ![Example Gif](https://github.com/RU09342/lab-2-blinking-leds-Bradyt4/blob/master/Off_Board%20Blink/Working.gif)
 
