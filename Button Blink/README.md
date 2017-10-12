@@ -7,7 +7,7 @@
 however since timers were still unknown at the time of writing, the actual implementation consisted of using methods to delay the
 processor from progressing through the code, either by clogging it up with empty for loops, or the delay cycles command.
 
-##Usage
+## Usage
 * Once board specific code has been loaded onto the processor, the designated button can be pressed to blink the onboard LED.
 * On the 5529 the speedchanging code can be loaded onto the processor, allowing the user to press the designated button to toggle between different speeds of an LED flash.
 
